@@ -17,7 +17,7 @@ jobs:
         uses: actions/download-artifact@v2.1.1
         with:
           name: hello-0.0.1-SNAPSHOT.jar
-          path: ./target
+          path: ./target/
 
       - name: Changing to the artefacts-store branch
         run: |
